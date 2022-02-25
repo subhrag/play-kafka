@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - KafkaApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>KafkaApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.demo.kafka.html">com.demo.kafka</a> &gt; KafkaApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.260s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.260s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:00:45.230 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:00:45.248 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:00:45.285 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.demo.kafka.KafkaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:00:45.306 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.demo.kafka.KafkaApplicationTests], using SpringBootContextLoader
+19:00:45.312 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.demo.kafka.KafkaApplicationTests]: class path resource [com/demo/kafka/KafkaApplicationTests-context.xml] does not exist
+19:00:45.313 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.demo.kafka.KafkaApplicationTests]: class path resource [com/demo/kafka/KafkaApplicationTestsContext.groovy] does not exist
+19:00:45.313 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.demo.kafka.KafkaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:00:45.315 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.demo.kafka.KafkaApplicationTests]: KafkaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:00:45.383 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.demo.kafka.KafkaApplicationTests]
+19:00:45.472 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/subhra/Documents/Subhra/Projects/play-kafka/build/classes/java/main/com/demo/kafka/KafkaApplication.class]
+19:00:45.476 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.demo.kafka.KafkaApplication for test class com.demo.kafka.KafkaApplicationTests
+19:00:45.614 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.demo.kafka.KafkaApplicationTests]: using defaults.
+19:00:45.615 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:00:45.634 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@73fd5e1f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f91c97f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4782f9f1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1a3120e4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a5881b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@52ae7321, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b345f4, org.springframework.test.context.event.EventPublishingTestExecutionListener@11167346, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3e5cd42f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1f4a9fbe, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74ee546, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25e03aaa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7dc57f95]
+19:00:45.638 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4dbdd423 testClass = KafkaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4f383e31 testClass = KafkaApplicationTests, locations = '{}', classes = '{class com.demo.kafka.KafkaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@58999f31, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22407c92, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@28d6dfca, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@bbc10da], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+19:00:45.681 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2021-04-27 19:00:46.133  INFO 20400 --- [    Test worker] com.demo.kafka.KafkaApplicationTests     : Starting KafkaApplicationTests on 192.168.2.46 with PID 20400 (started by subhra in /Users/subhra/Documents/Subhra/Projects/play-kafka)
+2021-04-27 19:00:46.136  INFO 20400 --- [    Test worker] com.demo.kafka.KafkaApplicationTests     : No active profile set, falling back to default profiles: default
+2021-04-27 19:00:48.705  INFO 20400 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-27 19:00:48.876  INFO 20400 --- [    Test worker] i.c.k.s.KafkaAvroSerializerConfig        : KafkaAvroSerializerConfig values: 
+	auto.register.schemas = true
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.token = [hidden]
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	proxy.host = 
+	proxy.port = -1
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLS
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://localhost:8081]
+	use.latest.version = false
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-04-27 19:00:48.914  INFO 20400 --- [    Test worker] i.c.k.s.KafkaAvroDeserializerConfig      : KafkaAvroDeserializerConfig values: 
+	auto.register.schemas = true
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.token = [hidden]
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	proxy.host = 
+	proxy.port = -1
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLS
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://localhost:8081]
+	specific.avro.reader = true
+	use.latest.version = false
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-04-27 19:00:48.933  INFO 20400 --- [    Test worker] org.apache.kafka.streams.StreamsConfig   : StreamsConfig values: 
+	application.id = stream-test
+	application.server = 
+	bootstrap.servers = [http://localhost:9091]
+	buffered.records.per.partition = 1000
+	cache.max.bytes.buffering = 10485760
+	client.id = 
+	commit.interval.ms = 30000
+	connections.max.idle.ms = 540000
+	default.deserialization.exception.handler = class org.apache.kafka.streams.errors.LogAndFailExceptionHandler
+	default.key.serde = class org.apache.kafka.common.serialization.Serdes$StringSerde
+	default.production.exception.handler = class org.apache.kafka.streams.errors.DefaultProductionExceptionHandler
+	default.timestamp.extractor = class org.apache.kafka.streams.processor.FailOnInvalidTimestamp
+	default.value.serde = class org.apache.kafka.common.serialization.Serdes$StringSerde
+	max.task.idle.ms = 0
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	num.standby.replicas = 0
+	num.stream.threads = 1
+	partition.grouper = class org.apache.kafka.streams.processor.DefaultPartitionGrouper
+	poll.ms = 100
+	processing.guarantee = at_least_once
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	replication.factor = 1
+	request.timeout.ms = 40000
+	retries = 0
+	retry.backoff.ms = 100
+	rocksdb.config.setter = null
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	state.cleanup.delay.ms = 600000
+	state.dir = /tmp/kafka-streams
+	topology.optimization = none
+	upgrade.from = null
+	windowstore.changelog.additional.retention.ms = 86400000
+
+2021-04-27 19:00:49.013  INFO 20400 --- [    Test worker] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [http://localhost:9091]
+	client.dns.lookup = default
+	client.id = stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-04-27 19:00:49.071  WARN 20400 --- [    Test worker] o.a.k.clients.admin.AdminClientConfig    : The configuration 'schema.registry.url' was supplied but isn't a known config.
+2021-04-27 19:00:49.077  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2021-04-27 19:00:49.077  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2021-04-27 19:00:49.077  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619542849075
+2021-04-27 19:00:49.092  INFO 20400 --- [    Test worker] o.a.k.s.p.internals.StreamThread         : stream-thread [stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1] Creating restore consumer client
+2021-04-27 19:00:49.098  INFO 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [http://localhost:9091]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-restore-consumer
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = null
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2021-04-27 19:00:49.108  WARN 20400 --- [9bb79465c-admin] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.137  WARN 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : The configuration 'schema.registry.url' was supplied but isn't a known config.
+2021-04-27 19:00:49.137  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2021-04-27 19:00:49.137  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2021-04-27 19:00:49.137  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619542849137
+2021-04-27 19:00:49.139  INFO 20400 --- [    Test worker] o.a.k.s.p.internals.StreamThread         : stream-thread [stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1] Creating shared producer client
+2021-04-27 19:00:49.144  INFO 20400 --- [    Test worker] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [http://localhost:9091]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 100
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2021-04-27 19:00:49.184  WARN 20400 --- [    Test worker] o.a.k.clients.producer.ProducerConfig    : The configuration 'schema.registry.url' was supplied but isn't a known config.
+2021-04-27 19:00:49.184  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2021-04-27 19:00:49.185  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2021-04-27 19:00:49.185  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619542849184
+2021-04-27 19:00:49.194  INFO 20400 --- [    Test worker] o.a.k.s.p.internals.StreamThread         : stream-thread [stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1] Creating consumer client
+2021-04-27 19:00:49.196  INFO 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [http://localhost:9091]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = stream-test
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2021-04-27 19:00:49.213  WARN 20400 --- [9bb79465c-admin] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.228  WARN 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : The configuration 'schema.registry.url' was supplied but isn't a known config.
+2021-04-27 19:00:49.228  WARN 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : The configuration 'admin.retries' was supplied but isn't a known config.
+2021-04-27 19:00:49.228  WARN 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : The configuration 'admin.retry.backoff.ms' was supplied but isn't a known config.
+2021-04-27 19:00:49.229  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2021-04-27 19:00:49.229  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2021-04-27 19:00:49.229  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619542849229
+2021-04-27 19:00:49.235  INFO 20400 --- [    Test worker] com.demo.kafka.play.stream.Processor     : Starting stream...
+2021-04-27 19:00:49.236  INFO 20400 --- [    Test worker] org.apache.kafka.streams.KafkaStreams    : stream-client [stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c] State transition from CREATED to REBALANCING
+2021-04-27 19:00:49.236  INFO 20400 --- [-StreamThread-1] o.a.k.s.p.internals.StreamThread         : stream-thread [stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1] Starting
+2021-04-27 19:00:49.237  INFO 20400 --- [-StreamThread-1] o.a.k.s.p.internals.StreamThread         : stream-thread [stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1] State transition from CREATED to STARTING
+2021-04-27 19:00:49.238  INFO 20400 --- [-StreamThread-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer, groupId=stream-test] Subscribed to pattern: 'users'
+2021-04-27 19:00:49.274  WARN 20400 --- [read-1-producer] org.apache.kafka.clients.NetworkClient   : [Producer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-producer] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.327  WARN 20400 --- [read-1-producer] org.apache.kafka.clients.NetworkClient   : [Producer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-producer] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.415  WARN 20400 --- [9bb79465c-admin] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.423  WARN 20400 --- [-StreamThread-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer, groupId=stream-test] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.434  WARN 20400 --- [read-1-producer] org.apache.kafka.clients.NetworkClient   : [Producer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-producer] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.482  WARN 20400 --- [-StreamThread-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer, groupId=stream-test] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.582  WARN 20400 --- [-StreamThread-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer, groupId=stream-test] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.620  WARN 20400 --- [9bb79465c-admin] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.643  WARN 20400 --- [read-1-producer] org.apache.kafka.clients.NetworkClient   : [Producer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-producer] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:49.709  INFO 20400 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 19:00:49.841  WARN 20400 --- [-StreamThread-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer, groupId=stream-test] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.064  WARN 20400 --- [read-1-producer] org.apache.kafka.clients.NetworkClient   : [Producer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-producer] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.128  WARN 20400 --- [9bb79465c-admin] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.250  WARN 20400 --- [-StreamThread-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-StreamThread-1-consumer, groupId=stream-test] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.315  INFO 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [http://localhost:9091]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group_id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-04-27 19:00:50.325  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2021-04-27 19:00:50.325  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2021-04-27 19:00:50.325  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619542850325
+2021-04-27 19:00:50.327  INFO 20400 --- [    Test worker] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-1, groupId=group_id] Subscribed to topic(s): users
+2021-04-27 19:00:50.335  INFO 20400 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-27 19:00:50.344  INFO 20400 --- [    Test worker] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [http://localhost:9091]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group_id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class io.confluent.kafka.serializers.KafkaAvroDeserializer
+
+2021-04-27 19:00:50.344  WARN 20400 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.346  INFO 20400 --- [    Test worker] i.c.k.s.KafkaAvroDeserializerConfig      : KafkaAvroDeserializerConfig values: 
+	auto.register.schemas = true
+	basic.auth.credentials.source = URL
+	basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	bearer.auth.token = [hidden]
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	latest.compatibility.strict = true
+	max.schemas.per.subject = 1000
+	proxy.host = 
+	proxy.port = -1
+	schema.reflection = false
+	schema.registry.basic.auth.user.info = [hidden]
+	schema.registry.ssl.cipher.suites = null
+	schema.registry.ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	schema.registry.ssl.endpoint.identification.algorithm = https
+	schema.registry.ssl.key.password = null
+	schema.registry.ssl.keymanager.algorithm = SunX509
+	schema.registry.ssl.keystore.location = null
+	schema.registry.ssl.keystore.password = null
+	schema.registry.ssl.keystore.type = JKS
+	schema.registry.ssl.protocol = TLS
+	schema.registry.ssl.provider = null
+	schema.registry.ssl.secure.random.implementation = null
+	schema.registry.ssl.trustmanager.algorithm = PKIX
+	schema.registry.ssl.truststore.location = null
+	schema.registry.ssl.truststore.password = null
+	schema.registry.ssl.truststore.type = JKS
+	schema.registry.url = [http://localhost:8081]
+	specific.avro.reader = true
+	use.latest.version = false
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2021-04-27 19:00:50.352  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2021-04-27 19:00:50.352  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2021-04-27 19:00:50.352  INFO 20400 --- [    Test worker] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619542850352
+2021-04-27 19:00:50.352  INFO 20400 --- [    Test worker] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-2, groupId=group_id] Subscribed to topic(s): user
+2021-04-27 19:00:50.353  INFO 20400 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-27 19:00:50.354  INFO 20400 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-27 19:00:50.355  WARN 20400 --- [ntainer#1-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-2, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.384  INFO 20400 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-27 19:00:50.401  WARN 20400 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.408  WARN 20400 --- [ntainer#1-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-2, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.424  INFO 20400 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-27 19:00:50.561  WARN 20400 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.568  WARN 20400 --- [ntainer#1-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-2, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.640  INFO 20400 --- [    Test worker] com.demo.kafka.KafkaApplicationTests     : Started KafkaApplicationTests in 4.946 seconds (JVM running for 7.192)
+2021-04-27 19:00:50.777  WARN 20400 --- [ntainer#1-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-2, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.827  WARN 20400 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+2021-04-27 19:00:50.848  WARN 20400 --- [9bb79465c-admin] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=stream-test-d653c38d-7691-4dee-87f3-1f89bb79465c-admin] Connection to node -1 (localhost/127.0.0.1:9091) could not be established. Broker may not be available.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.2.2</a> at Apr 27, 2021 7:00:52 PM</p>
+</div>
+</div>
+</body>
+</html>

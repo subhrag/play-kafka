@@ -1,0 +1,19 @@
+{
+  "name": "Person",
+  "type": "record",
+  "namespace": "com.demo.kafka",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}
